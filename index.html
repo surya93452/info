@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Operations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cont">
+    <h1>Info Form</h1>
+    <label for="userForm">Enter the details</label>
+    <form id="userForm">
+       
+        <input type="text" id="name" placeholder="Name">
+        <input type="text" id="email" placeholder="Email">
+        <input type="text" id="city" placeholder="City">
+        <button type="submit">Add user</button>
+    </form><br />
+    <hr />
+    <h2>Details</h2>
+  
+    <table id="usertable">
+        <thead>
+            <tr>
+                <th>Name</th>
+    
+                <th>Email</th>
+                <th>City</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody id="userList"></tbody>
+    </table>  
+    <script src="scripts.js"></script>
+</div>
+</body>
+</html>
